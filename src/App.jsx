@@ -1,19 +1,18 @@
-import About from "./components/about";
-import Contact from "./components/contact";
-import Faq from "./components/faq";
-import Footer from "./components/footer";
-import Header from "./components/header";
-import Hero from "./components/hero";
-import HowWeWork from "./components/howWork";
-import Price from "./components/pricing";
-import Review from "./components/reviews";
-import Service from "./components/service";
-import WhyWe from "./components/whyChooseUs";
+import About from "./components/sections/about";
+import Contact from "./components/sections/contact";
+import Faq from "./components/sections/faq";
+import Footer from "./components/sections/footer";
+import Header from "./components/sections/header";
+import Hero from "./components/sections/hero";
+import HowWeWork from "./components/sections/howWork";
+import Price from "./components/sections/pricing";
+import Review from "./components/sections/reviews";
+import Service from "./components/sections/service";
+import WhyWe from "./components/sections/whyChooseUs";
 
 function App() {
   return (
-    <>
-      <h1>Cleaning services</h1>
+    <div className="font-basic">
       <Header />
       <Hero />
       <About />
@@ -25,7 +24,7 @@ function App() {
       <Review />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 
