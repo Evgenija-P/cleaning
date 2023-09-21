@@ -4,7 +4,6 @@ import { ArrowRight, Services } from "../icons";
 
 const ServiceItem = ({ item }) => {
   const bgColor = item.color === "yellow" ? "bg-yellow" : item.color === "green" ? "bg-green" : "bg-orange";
-  console.log(item.color);
 
   return (
     <ul className="w-[420px] min-h-[441px] bg-white rounded-xl p-8 border-[1px] border-[#E3E3E3] relative">

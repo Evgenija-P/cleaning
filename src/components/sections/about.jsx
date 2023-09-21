@@ -8,7 +8,7 @@ import { Dots } from "../../icons";
 
 const About = () => {
   return (
-    <section className="min-h-[800px]">
+    <section className="min-h-[800px]" id="about">
       <div className="container mx-auto h-full py-[120px] flex">
         <div>
           <TitleSection>About Us</TitleSection>
@@ -17,7 +17,7 @@ const About = () => {
             <Text>
               Our services go beyond the <span className="font-semibold">basic services</span> and provide you with a
               clean the that will{" "}
-              <a href="#" className="font-semibold text-orange underline cursor-pointer">
+              <a href="#services" className="font-semibold text-orange underline cursor-pointer">
                 Cleaning services
               </a>{" "}
               of the reenergize your home and enhance your life.

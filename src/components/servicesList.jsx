@@ -9,9 +9,10 @@ const ServicesList = () => {
   return (
     <>
       <div className="grid grid-cols-3 gap-8 mt-[78px]">
-        {data.slice(0, 3).map((item) => (
-          <ServiceItem item={item} key={item.id} />
-        ))}
+        {!isShowAllServices
+          ? data.slice(0, 3).map((item) => <ServiceItem item={item} key={item.id} />)
+          : data.map((item) => <ServiceItem item={item} key={item.id} />)}
+
       </div>
       <div className="mt-[60px]">
         {isShowAllServices ? (

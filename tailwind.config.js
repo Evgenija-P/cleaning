@@ -14,7 +14,7 @@ export default {
         text: "#647685",
         orange: "#FF8345",
         yellow: "#FFCA45",
-
+        darkOrange: "#FE6B01",
         green: "#48B774",
         serviceTitle: "#1B1E1C",
       },

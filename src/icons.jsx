@@ -4,6 +4,8 @@ const colors = {
   yellow: "#FFCA45",
   orange: "#FF8345",
   green: "#48B774",
+  darkOrange: "#FE6B01",
+  blue: "#1F6BFF",
 };
 
 export const Logo = () => (
@@ -166,11 +168,20 @@ export const ArrowRight = ({ color }) => (
   </svg>
 );
 
-export const Polygon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="97" height="94" viewBox="0 0 97 94" fill="none">
+export const Polygon = ({ color, className }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="97" height="94" viewBox="0 0 97 94" fill="none" className={className}>
     <path
       d="M40.271 2.97871C45.1778 -0.586305 51.8222 -0.586303 56.729 2.97871L91.1525 27.9889C96.0594 31.5539 98.1126 37.873 96.2383 43.6414L83.0897 84.1087C81.2155 89.877 75.8401 93.7824 69.7749 93.7824H27.2251C21.1599 93.7824 15.7845 89.877 13.9103 84.1087L0.761671 43.6413C-1.11257 37.873 0.940647 31.5539 5.84747 27.9889L40.271 2.97871Z"
-      fill="#37D348"
+      // fill="#37D348"
+      fill={
+        color === "blue"
+          ? colors.blue
+          : color === "green"
+          ? colors.green
+          : color === "yellow"
+          ? colors.yellow
+          : colors.orange
+      }
       fillOpacity="0.1"
     />
   </svg>
@@ -504,3 +515,4 @@ Services.propTypes = { color: PropTypes.string.isRequired };
 ArrowRight.propTypes = { color: PropTypes.string.isRequired };
 Dots.propTypes = { className: PropTypes.string };
 Title.propTypes = { className: PropTypes.string };
+Polygon.propTypes = { color: PropTypes.string.isRequired, className: PropTypes.string };
