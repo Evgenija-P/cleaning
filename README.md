@@ -1,8 +1,19 @@
-# React + Vite
+# Cleaning Services
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal pet project.
+Website of a possible cleaning company.
+The layout was found in open sources. All photos from free stock photos.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Desktop/Mobile version
+- Cross platform
+- English/Ukrainian version
+
+## Support & Feedback
+
+If you need to contact the owner of the repository, please write to e.a.poduzova@gmail.com
+
+## Tech Stack:
+
+React, TailwindCSS
