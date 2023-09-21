@@ -5,10 +5,18 @@ export default {
     extend: {
       colors: {
         blue: "#1F6BFF",
+        lightBlue: "#BADAF4",
+        lightBlueSecond: "#F4F9FD",
         main: "#222326",
         bgHero: "#DBEBF8",
         navy: "#050931",
         grey: "#767877",
+        text: "#647685",
+        orange: "#FF8345",
+        yellow: "#FFCA45",
+
+        green: "#48B774",
+        serviceTitle: "#1B1E1C",
       },
       fontFamily: {
         basic: "Rubik, sans-serif",

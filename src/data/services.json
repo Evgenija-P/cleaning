@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Spring-cleaning",
+    "text": "During the general cleaning process, we remove dust and dirt from wherever it may be, even in the most difficult to reach places.",
+    "color": "orange"
+  },
+  {
+    "id": "2",
+    "title": "Supportive cleaning",
+    "text": "We wash floors, remove dust, polish glass, polish furniture",
+    "color": "yellow"
+  },
+  {
+    "id": "3",
+    "title": "Cleaning after construction",
+    "text": "We wash windows, remove large and small debris, clean furniture, etc.",
+    "color": "green"
+  },
+  {
+    "id": "4",
+    "title": "Window cleaning",
+    "text": "Cleaning glass from dirt, wet washing the frame, washing ebbs, window sills, slopes",
+    "color": "orange"
+  },
+  {
+    "id": "5",
+    "title": "Cleaning of offices",
+    "text": "Daily cleaning, one-time general cleaning, interior window cleaning",
+    "color": "yellow"
+  },
+  {
+    "id": "6",
+    "title": "Daily cleaning of premises",
+    "text": "Daily cleaning of office premises includes comprehensive cleaning and maintaining cleanliness throughout the working day.",
+    "color": "green"
+  },
+  {
+    "id": "7",
+    "title": "Wife for an hour",
+    "text": "The whole range of housekeeping activities. Preparing the house for the arrival of guests, preparing treats, cleaning after the event",
+    "color": "orange"
+  },
+  {
+    "id": "8",
+    "title": "Washing of facades, billboards, banners",
+    "text": "We will help you keep your billboard, banner, sign (at the entrance to a store, building) clean and presentable.",
+    "color": "yellow"
+  },
+  {
+    "id": "9",
+    "title": "Dry cleaning of upholstered furniture",
+    "text": "We will help you quickly update and refresh your interior, getting rid of dust, plaque, mites, microorganisms, stains of any nature",
+    "color": "green"
+  },
+  {
+    "id": "10",
+    "title": "Dry cleaning of carpets and rugs",
+    "text": "Periodic dry cleaning of carpets using professional means can restore their newness, freshness and beauty.t",
+    "color": "orange"
+  }
+]
