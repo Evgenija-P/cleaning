@@ -21,7 +21,7 @@ const ProcessItem = ({ item }) => {
           : item.color === "yellow"
           ? "border-yellow"
           : "border-orange"
-      }`}
+      } shadow-priceItem`}
     >
       <li className="w-[97px] h-[97px] flex items-center relative mx-auto">
         <Polygon color={item.color} className={"absolute top-0 left-0"} />

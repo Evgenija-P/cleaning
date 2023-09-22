@@ -3,7 +3,8 @@ import data from "../../data/price.json";
 import TitleSection from "../title";
 import Subtitle from "../subtitle";
 import Text from "../text";
-import PriceItem from "../priceItem";
+import PriceList from "../priceList";
+import { Dots } from "../../icons";
 
 const Price = () => {
   const categories = ["All prices"];
@@ -18,8 +19,8 @@ const Price = () => {
   const filteredItems = filter === "All prices" ? data : data.filter((el) => el.type === filter);
 
   return (
-    <section id="price">
-      <div className="min-h-[1284px] container mx-auto py-[120px]">
+    <section className="relative" id="price">
+      <div className="min-h-[1284px] container mx-auto pt-[120px]">
         <TitleSection style={"mx-auto text-center"}>Pricing</TitleSection>
         <Subtitle style={"mx-auto text-center mt-3 mb-5"}>Our Cleaning Company Work Process for You </Subtitle>
         <Text style={"mx-auto text-center w-[609px] mb-4"}>
@@ -30,11 +31,11 @@ const Price = () => {
           Our services go beyond the basic services and and enhance your life.
         </Text>
 
-        <div className="grid grid-cols-3 gap-x-1 mb-5">
+        <div className="grid grid-cols-3 gap-x-2 mb-5">
           {categories.map((el, index) => (
             <button
               key={index + 1}
-              className={`rounded rounded-tr-3xl p-2 text-lg font-medium  ${
+              className={`rounded rounded-tr-3xl p-4 text-xl font-medium  ${
                 el === filter
                   ? "bg-orange bg-opacity-100 text-white shadow-buttonOrange"
                   : "bg-blue bg-opacity-40 hover:shadow-button text-gray-400"
@@ -45,11 +46,11 @@ const Price = () => {
             </button>
           ))}
         </div>
-        <div className="flex gap-x-3 flex-wrap">
-          {filteredItems.map((el) => (
-            <PriceItem key={el.id} item={el} />
-          ))}
-        </div>
+
+        <PriceList data={filteredItems} />
+
+        <div className="w-[275px] h-[275px] rounded-full blur-lg bg-lightBlue  absolute top-[-140px] right-[15px]" />
+        <Dots className={"absolute bottom-[-112px] left-[15px]"} />
       </div>
     </section>
   );

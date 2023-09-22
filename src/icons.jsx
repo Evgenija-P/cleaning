@@ -523,6 +523,18 @@ export const Check = () => (
   </svg>
 );
 
+export const ArrowLeftSW = () => (
+  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21 30L10 16L21 2.5" stroke={colors.blue} strokeWidth="4" />
+  </svg>
+);
+
+export const ArrowRightSw = () => (
+  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M11 2L22 16L11 29.5" stroke={colors.blue} strokeWidth="4" />
+  </svg>
+);
+
 Services.propTypes = { color: PropTypes.string.isRequired };
 ArrowRight.propTypes = { color: PropTypes.string.isRequired };
 Dots.propTypes = { className: PropTypes.string };

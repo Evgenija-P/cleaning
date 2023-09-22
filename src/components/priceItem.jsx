@@ -10,7 +10,7 @@ const PriceItem = ({ item }) => {
   }
 
   return (
-    <ul className="w-[400px] h-[765px] rounded-md border-[1.5px] border-[#ECECEC] py-[60px] px-5 flex flex-col justify-between">
+    <ul className="w-[400px] h-[600px] rounded-md border-[1.5px] border-[#ECECEC] py-[30px] px-5 flex flex-col justify-between mx-auto shadow-priceItem">
       <li className="text-main text-[45px] font-title font-medium text-center min-h-[135px]">{title}</li>
       <li className="flex flex-col gap-y-2">
         {text.map((t, index) => (
