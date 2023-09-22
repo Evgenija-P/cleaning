@@ -6,7 +6,7 @@ import TitleSection from "../title";
 
 const HowWeWork = () => {
   return (
-    <section className="">
+    <section className="relative">
       <div className="min-h-[828px] mx-auto container py-[120px] relative">
         <TitleSection>How we work</TitleSection>
         <Subtitle style={"w-[555px] mt-3 mb-[60px]"}>Our Cleaning Company Work Process for You </Subtitle>
@@ -16,8 +16,8 @@ const HowWeWork = () => {
         </Text>
 
         <ProcessList />
-        <Dots className={"absolute top-[-109px] right-0"} />
       </div>
+      <Dots className={"absolute top-[-109px] right-[15px]"} />
     </section>
   );
 };

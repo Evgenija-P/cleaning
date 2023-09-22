@@ -12,15 +12,14 @@ const ServicesList = () => {
         {!isShowAllServices
           ? data.slice(0, 3).map((item) => <ServiceItem item={item} key={item.id} />)
           : data.map((item) => <ServiceItem item={item} key={item.id} />)}
-
       </div>
       <div className="mt-[60px]">
         {isShowAllServices ? (
-          <Button btnClass={"mx-auto"} clickFn={() => setIsShowAllServices(!isShowAllServices)}>
+          <Button style={"regular"} btnClass={"mx-auto"} clickFn={() => setIsShowAllServices(!isShowAllServices)}>
             Close All Service
           </Button>
         ) : (
-          <Button btnClass={"mx-auto"} clickFn={() => setIsShowAllServices(!isShowAllServices)}>
+          <Button style={"regular"} btnClass={"mx-auto"} clickFn={() => setIsShowAllServices(!isShowAllServices)}>
             All Service
           </Button>
         )}

@@ -15,7 +15,7 @@ const Hero = () => {
             Our services go beyond the basic services and provide you with clean your home and enhance your life.
           </h2>
 
-          <Button>Learn More</Button>
+          <Button style={"regular"}>Learn More</Button>
 
           <IndicatorsList />
         </div>

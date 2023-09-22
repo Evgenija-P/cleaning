@@ -511,6 +511,18 @@ export const Title = ({ className }) => (
   </svg>
 );
 
+export const Check = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+    <path
+      d="M4.10938 12.3077L10.2632 18.4615L20.5196 6.15381"
+      stroke="#1F6BFF"
+      strokeWidth="4.61538"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
 Services.propTypes = { color: PropTypes.string.isRequired };
 ArrowRight.propTypes = { color: PropTypes.string.isRequired };
 Dots.propTypes = { className: PropTypes.string };

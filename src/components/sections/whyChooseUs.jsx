@@ -5,10 +5,12 @@ import TitleSection from "../title";
 import FirstImg from "../../images/why_1.jpg";
 import SecondImg from "../../images/why_2.jpg";
 import ThirdImg from "../../images/why_3.jpg";
+import { Dots } from "../../icons";
+import Button from "../UX/buttons";
 
 const WhyWe = () => {
   return (
-    <section className="bg-lightBlueSecond">
+    <section className="bg-lightBlueSecond relative">
       <div className="min-h-[1046px] py-[120px] container mx-auto relative flex gap-x-[110px]">
         <div>
           <TitleSection>Why Choose Us</TitleSection>
@@ -18,6 +20,9 @@ const WhyWe = () => {
           </Text>
 
           <Advantages />
+          <Button style={"regular"} clickFn={() => (window.location.href = "#about")} btnClass={"mt-[68px]"}>
+            Contact Us
+          </Button>
         </div>
         <ul className="flex flex-col gap-y-5 relative">
           <li className="flex gap-x-5 items-end">
@@ -30,6 +35,7 @@ const WhyWe = () => {
           <li className="w-[61px] h-[61px] rounded-full bg-lightBlue blur-md absolute top-[34px] left-[186px]" />
         </ul>
       </div>
+      <Dots className={"absolute top-[-110px] left-[10px]"} />
     </section>
   );
 };

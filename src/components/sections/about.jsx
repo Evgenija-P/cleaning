@@ -26,7 +26,9 @@ const About = () => {
               Our services go beyond the basic services and provide you with reenergize your home and enhance your life.
             </Text>
           </ul>
-          <Button btnClass={"mt-12 mb-[96px]"}>Read More</Button>
+          <Button style={"regular"} btnClass={"mt-12 mb-[96px]"}>
+            Read More
+          </Button>
         </div>
         <div className="relative ml-[126px] w-full">
           <div className="w-[73px] h-[73px] rounded-full bg-lightBlue absolute top-5 left-[178px]" />

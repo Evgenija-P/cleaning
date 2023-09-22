@@ -1,0 +1,153 @@
+[
+  {
+    "id": "1",
+    "type": "Busines",
+    "one": "15",
+    "oneCent": "75",
+    "regular": "150",
+    "regularCent": "00",
+    "title": "Maintenance cleaning",
+    "text": ["Fix", "cleaning", "dry", "Washing", "Wife"]
+  },
+  {
+    "id": "2",
+    "type": "Busines",
+    "one": "50",
+    "oneCent": "75",
+    "regular": "500",
+    "regularCent": "50",
+    "title": "Spring-cleaning",
+    "text": ["", "", "", "", ""]
+  },
+  {
+    "id": "3",
+    "type": "Busines",
+    "one": "79",
+    "oneCent": "99",
+    "regular": "700",
+    "regularCent": "75",
+    "title": "Cleaning after construction",
+    "text": ["", "", "", "", ""]
+  },
+  {
+    "id": "4",
+    "type": "Busines",
+    "one": "84",
+    "oneCent": "99",
+    "regular": "600",
+    "regularCent": "00",
+    "title": "Window / facade cleaning",
+    "text": ["", "", "", "", ""]
+  },
+  {
+    "id": "5",
+    "type": "Busines",
+    "one": "75",
+    "oneCent": "00",
+    "regular": "599",
+    "regularCent": "99",
+    "title": "Furniture dry cleaning",
+    "text": ["", "", "", "", ""]
+  },
+  {
+    "id": "6",
+    "type": "Busines",
+    "one": "75",
+    "oneCent": "50",
+    "regular": "600",
+    "regularCent": "20",
+    "title": "Dry cleaning of floor coverings",
+    "text": ["", "", "", "", ""]
+  },
+
+  {
+    "id": "8",
+    "type": "Individual",
+    "one": "25",
+    "oneCent": "00",
+    "regular": "120",
+    "regularCent": "50",
+    "title": "Maintenance cleaning",
+    "text": ["", "", "", "", ""]
+  },
+  {
+    "id": "9",
+    "type": "Individual",
+    "one": "49",
+    "oneCent": "99",
+    "regular": "500",
+    "regularCent": "00",
+    "title": "Spring-cleaning",
+    "text": ["", "", "", "", ""]
+  },
+  {
+    "id": "10",
+    "type": "Individual",
+    "one": "75",
+    "oneCent": "00",
+    "regular": "600",
+    "regularCent": "00",
+    "title": "Cleaning after construction",
+    "text": ["", "", "", "", ""]
+  },
+  {
+    "id": "11",
+    "type": "Individual",
+    "one": "29",
+    "oneCent": "99",
+    "regular": "250",
+    "regularCent": "75",
+    "title": "Window cleaning",
+    "text": ["", "", "", "", ""]
+  },
+  {
+    "id": "12",
+    "type": "Individual",
+    "one": "99",
+    "oneCent": "99",
+    "regular": "400",
+    "regularCent": "00",
+    "title": "Pre-sale cleaning",
+    "text": ["", "", "", "", ""]
+  },
+  {
+    "id": "13",
+    "type": "Individual",
+    "one": "20",
+    "oneCent": "90",
+    "regular": "200",
+    "regularCent": "00",
+    "title": "Furniture dry cleaning",
+    "text": ["", "", "", "", ""]
+  },
+  {
+    "id": "14",
+    "type": "Individual",
+    "one": "30",
+    "oneCent": "50",
+    "regular": "250",
+    "regularCent": "99",
+    "title": "Carpet washing",
+    "text": ["", "", "", "", ""]
+  },
+  {
+    "id": "15",
+    "type": "Individual",
+    "one": "80",
+    "oneCent": "00",
+    "regular": "799",
+    "regularCent": "90",
+    "title": "Wife for an hour",
+    "text": ["", "", "", "", ""]
+  },
+  {
+    "id": "16",
+    "type": "Individual",
+    "one": "40",
+    "oneCent": "00",
+    "regular": "450",
+    "regularCent": "00",
+    "title": "Ironing items / home textiles",
+    "text": ["", "", "", "", ""]
+  }
+]
