@@ -161,3 +161,23 @@ input,
 textarea {
   outline: none;
 }
+
+svg path {
+  stroke: inherit;
+  stroke-width: inherit;
+  fill: inherit;
+}
+
+.socList__linc {
+}
+
+.socList__linc svg {
+  fill: #1f6bff;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socList__linc svg:hover {
+  fill: #ff8345;
+}

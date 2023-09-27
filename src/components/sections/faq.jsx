@@ -4,10 +4,12 @@ import TitleSection from "../title";
 import data from "../../data/questions.json";
 
 const Faq = () => {
-  const firstData = data.slice(0, 5);
-  const secondData = data.slice(5, 10);
+  const point = Math.ceil(data.length / 2);
+  const firstData = data.slice(0, point);
+  const secondData = data.slice(point, data.length);
+
   return (
-    <section className="bg-lightBlueSecond">
+    <section className="bg-lightBlueSecond" id="faq">
       <div className="container mx-auto py-[120px] min-h-[880px]">
         <TitleSection style={"mx-auto text-center"}>FAQ</TitleSection>
         <Subtitle style={"mx-auto text-center mt-3 mb-[60px]"}>Question & Answer</Subtitle>

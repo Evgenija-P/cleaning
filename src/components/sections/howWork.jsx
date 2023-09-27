@@ -6,7 +6,7 @@ import TitleSection from "../title";
 
 const HowWeWork = () => {
   return (
-    <section className="relative">
+    <section className="relative" id="how">
       <div className="min-h-[828px] mx-auto container py-[120px] relative">
         <TitleSection>How we work</TitleSection>
         <Subtitle style={"w-[555px] mt-3 mb-[60px]"}>Our Cleaning Company Work Process for You </Subtitle>

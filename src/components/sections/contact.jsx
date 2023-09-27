@@ -16,7 +16,7 @@ const Contact = () => {
             <Text style={"w-full mb-4"}>
               Our services go beyond the basic services and provide you with a reenergize your home.
             </Text>
-            <a href="tel:+001122334455" className="text-2xl font-semibold text-blue mt-8">
+            <a href="tel:+001122334455" className="text-2xl font-semibold text-blue mt-8 hover:text-orange">
               +00 11 22 33 44 55
             </a>
           </div>

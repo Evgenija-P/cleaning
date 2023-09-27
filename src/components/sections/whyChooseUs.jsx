@@ -10,7 +10,7 @@ import Button from "../UX/buttons";
 
 const WhyWe = () => {
   return (
-    <section className="bg-lightBlueSecond relative">
+    <section className="bg-lightBlueSecond relative" id="why">
       <div className="min-h-[1046px] py-[120px] container mx-auto relative flex gap-x-[110px]">
         <div>
           <TitleSection>Why Choose Us</TitleSection>

@@ -11,6 +11,7 @@ export default {
         bgHero: "#DBEBF8",
         navy: "#050931",
         grey: "#767877",
+        footerGrey: "#7A7B7D",
         formGrey: "#969696",
         text: "#647685",
         orange: "#FF8345",
