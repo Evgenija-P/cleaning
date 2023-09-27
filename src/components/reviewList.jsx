@@ -2,11 +2,13 @@ import Proptypes from "prop-types";
 import { useState } from "react";
 import Slider from "react-slick";
 import { ArrowLeftSW, ArrowRightSw } from "../icons";
-import PriceItem from "./priceItem";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const PriceList = ({ data }) => {
+import data from "../data/response.json";
+import ReviewCard from "./reviewCard";
+
+const ReviewList = () => {
   const [imageIndex, setImageIndex] = useState(0);
 
   const NextArrow = ({ onClick }) => {
@@ -34,10 +36,11 @@ const PriceList = ({ data }) => {
   };
 
   const settings = {
+    dots: true,
     infinite: true,
     lazyLoad: true,
     speed: 300,
-    slidesToShow: 3,
+    slidesToShow: 1,
     centerMode: true,
     centerPadding: 0,
     nextArrow: <NextArrow />,
@@ -45,20 +48,16 @@ const PriceList = ({ data }) => {
     beforeChange: (current, next) => setImageIndex(next),
   };
   return (
-    <>
+    <div className="w-[950px] mx-auto">
       <Slider {...settings} className="slider-price">
         {data.map((el, idx) => (
           <div className={idx === imageIndex ? "scale-50 activeSlide" : "slide"} key={idx + 1}>
-            <PriceItem item={el} />
+            <ReviewCard item={el} />
           </div>
         ))}
       </Slider>
-    </>
+    </div>
   );
 };
 
-PriceList.propTypes = {
-  data: Proptypes.array.isRequired,
-};
-
-export default PriceList;
+export default ReviewList;

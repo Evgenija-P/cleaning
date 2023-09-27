@@ -11,6 +11,7 @@ export default {
         bgHero: "#DBEBF8",
         navy: "#050931",
         grey: "#767877",
+        formGrey: "#969696",
         text: "#647685",
         orange: "#FF8345",
         yellow: "#FFCA45",
@@ -29,6 +30,7 @@ export default {
         buttonPrice: "0px 2px 19px 0px rgba(161,156,161,0.68)",
         default: "0px 0px 6px 3px rgba(153,153,153,1)",
         priceItem: "0px 56px 80px -16px rgba(219,222,229,0.80)",
+        form: "0px 56px 80px -16px rgba(219,222,229,0.80);",
       },
       listStyleImage: {
         check: 'url("/images/check.png")',

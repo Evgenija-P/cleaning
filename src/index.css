@@ -134,3 +134,30 @@ ol {
   max-height: 1000px;
   opacity: 1;
 }
+
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 14px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: -157px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.45;
+  color: #1f6bff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.85;
+  color: #ff8345;
+}
+
+input,
+textarea {
+  outline: none;
+}

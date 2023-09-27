@@ -18,7 +18,7 @@ const styles = [
   "w-[88px] h-[88px] top-[336px] left-[300px] opacity-[.7]",
   "w-[64px] h-[64px] top-[225px] left-[145px]",
   "w-[44px] h-[44px] top-[340px] left-[484px] opacity-[.8]",
-  "w-[64px] h-[64px] top-[225px] left-[835px] opacity-[.6]",
+  "w-[64px] h-[64px] top-[215px] right-[485px] opacity-[.6]",
   "w-[64px] h-[64px] top-[265px] left-[610px] opacity-[.7]",
 ];
 

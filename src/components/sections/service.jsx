@@ -15,7 +15,7 @@ const Service = () => {
 
         <ServicesList />
       </div>
-      <div className="w-[256px] h-[256px] rounded-full bg-lightBlue absolute top-[-70px] left-[-55px] blur-2xl" />
+      <div className="w-[256px] h-[256px] rounded-full bg-lightBlue absolute top-[-70px] left-[-55px]" />
     </section>
   );
 };

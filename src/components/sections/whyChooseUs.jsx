@@ -20,7 +20,7 @@ const WhyWe = () => {
           </Text>
 
           <Advantages />
-          <Button style={"regular"} clickFn={() => (window.location.href = "#about")} btnClass={"mt-[68px]"}>
+          <Button style={"regular"} clickFn={() => (window.location.href = "#contact")} btnClass={"mt-[68px]"}>
             Contact Us
           </Button>
         </div>
@@ -32,7 +32,7 @@ const WhyWe = () => {
           <li>
             <img src={ThirdImg} alt="" className="w-[741px] h-[272px]" />
           </li>
-          <li className="w-[61px] h-[61px] rounded-full bg-lightBlue blur-md absolute top-[34px] left-[186px]" />
+          <li className="w-[61px] h-[61px] rounded-full bg-lightBlue absolute top-[34px] left-[186px]" />
         </ul>
       </div>
       <Dots className={"absolute top-[-110px] left-[10px]"} />

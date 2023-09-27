@@ -49,7 +49,7 @@ const Price = () => {
 
         <PriceList data={filteredItems} />
 
-        <div className="w-[275px] h-[275px] rounded-full blur-lg bg-lightBlue  absolute top-[-140px] right-[15px]" />
+        <div className="w-[275px] h-[275px] rounded-full bg-lightBlue  absolute top-[-140px] right-[15px]" />
         <Dots className={"absolute bottom-[-112px] left-[15px]"} />
       </div>
     </section>
