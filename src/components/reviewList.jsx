@@ -43,8 +43,8 @@ const ReviewList = () => {
     slidesToShow: 1,
     centerMode: true,
     centerPadding: 0,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    nextArrow: <PrevArrow />,
+    prevArrow: <NextArrow />,
     beforeChange: (current, next) => setImageIndex(next),
   };
   return (

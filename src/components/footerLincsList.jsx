@@ -15,7 +15,7 @@ const FooterLincsList = () => {
     <ul className="grid grid-cols-4 gap-y-3 gap-x-8 justify-between h-full">
       {LINCS.map((el) => (
         <li key={el.id} className="text-xl text-footerGrey leading-[1.7] hover:text-darkOrange cursor-pointer">
-          {el.name}
+          <a href={el.href}>{el.name}</a>
         </li>
       ))}
     </ul>

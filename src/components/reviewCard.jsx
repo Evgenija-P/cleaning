@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const ReviewCard = ({ item }) => {
   //   const { t } = useTranslation();
   return (
-    <ul className="w-[750px] mx-auto">
+    <ul className="w-[650px] mx-auto">
       <li className="w-[88px] mx-auto mb-8">
         <img src={item.photo} alt="response photo" className="object-cover w-[88px] h-[88px] rounded-full" />
       </li>

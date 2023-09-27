@@ -162,13 +162,10 @@ textarea {
   outline: none;
 }
 
-svg path {
+.socList__linc svg path {
   stroke: inherit;
   stroke-width: inherit;
   fill: inherit;
-}
-
-.socList__linc {
 }
 
 .socList__linc svg {

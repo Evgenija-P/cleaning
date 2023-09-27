@@ -6,10 +6,13 @@ import TitleSection from "../title";
 
 const Contact = () => {
   return (
-    <section className="h-[840px] relative" id="contact">
+    <section className="h-[840px] relative">
       <div className="h-[441px] w-full bg-lightBlueSecond" />
-      <div className="absolute top-1/2 left-2/4 -translate-x-1/2 -translate-y-1/2 container mx-auto pt-[120px]">
-        <div className="w-[1157px] py-[55px] pl-[120px] pr-10 bg-white shadow-form mx-auto flex justify-between items-center">
+      <div
+        className="absolute top-1/2 left-2/4 -translate-x-1/2 -translate-y-1/2 container mx-auto pt-[120px]"
+        id="contact"
+      >
+        <div className="w-[1157px] py-[55px] pl-[120px] pr-10 bg-white shadow-form mx-auto flex justify-between items-center ">
           <div className="w-[400px]">
             <TitleSection>Contact</TitleSection>
             <Subtitle style={"mt-3 mb-5"}>Contact with Us </Subtitle>

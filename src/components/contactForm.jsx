@@ -12,14 +12,11 @@ const ContactForm = () => {
     handleSubmit,
     reset,
     formState: { errors },
-    // eslint-disable-next-line react-hooks/rules-of-hooks
   } = useForm();
 
   const onSubmit = (data) => {
     console.log(data), reset();
   };
-
-  //   console.log(watch("name"), watch("phone"), watch("email"), watch("messege"));
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="w-[466px] flex flex-col gap-y-10">
