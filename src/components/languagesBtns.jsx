@@ -10,9 +10,9 @@ const LanguagesBtns = () => {
       <button
         onMouseOver={() => setIsOpenLangBtns(true)}
         onMouseLeave={() => setIsOpenLangBtns(false)}
-        className="w-full uppercase cursor-pointer font-semibold text-lg mx-auto px-2"
+        className="w-full uppercase cursor-pointer font-semibold text-lg text-main text-opacity-80 mx-auto px-2"
       >
-        {i18n.language}
+        {i18n.resolvedLanguage}
       </button>
 
       {isOpenLangBtns && (

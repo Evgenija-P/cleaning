@@ -1,7 +1,10 @@
 import PropTypes from "prop-types";
+import { useTranslation } from "react-i18next";
 import { Polygon } from "../icons";
 
 const ProcessItem = ({ item }) => {
+  const { t } = useTranslation();
+
   const currentTextColor =
     item.color === "blue"
       ? "text-blue"
@@ -27,8 +30,10 @@ const ProcessItem = ({ item }) => {
         <Polygon color={item.color} className={"absolute top-0 left-0"} />
         <p className={`text-2xl font-bold ${currentTextColor} mx-auto`}>0{item.id}</p>
       </li>
-      <li className="text-2xl text-navy font-bold mx-auto mt-8 font-title text-center">{item.title}</li>
-      <li className="text-lg text-grey mt-4 text-center">{item.text}</li>
+      <li className="text-2xl text-navy font-bold mx-auto mt-8 font-title text-center">
+        {t(`how_items.${item.id - 1}.title`)}
+      </li>
+      <li className="text-lg text-grey mt-4 text-center">{t(`how_items.${item.id - 1}.text`)}</li>
     </ul>
   );
 };

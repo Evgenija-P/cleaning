@@ -5,8 +5,10 @@ import Subtitle from "../subtitle";
 import Text from "../text";
 import PriceList from "../priceList";
 import { Dots } from "../../icons";
+import { useTranslation } from "react-i18next";
 
 const Price = () => {
+  const { t } = useTranslation();
   const categories = ["All prices"];
   const [filter, setFilter] = useState("All prices");
 
@@ -21,15 +23,10 @@ const Price = () => {
   return (
     <section className="relative" id="price">
       <div className="min-h-[1284px] container mx-auto pt-[120px]">
-        <TitleSection style={"mx-auto text-center"}>Pricing</TitleSection>
-        <Subtitle style={"mx-auto text-center mt-3 mb-5"}>Our Cleaning Company Work Process for You </Subtitle>
-        <Text style={"mx-auto text-center w-[609px] mb-4"}>
-          Our services go beyond the basic services and provide you with reenergize your in a home and enhance your
-          life.
-        </Text>
-        <Text style={"mx-auto text-center w-[609px] mb-5"}>
-          Our services go beyond the basic services and and enhance your life.
-        </Text>
+        <TitleSection style={"mx-auto text-center"}>{t(`pricing.title`)}</TitleSection>
+        <Subtitle style={"mx-auto text-center mt-3 mb-5"}>{t(`pricing.subtitle`)}</Subtitle>
+        <Text style={"mx-auto text-center w-[609px] mb-4"}>{t(`pricing.text`)}</Text>
+        <Text style={"mx-auto text-center w-[609px] mb-5"}>{t(`pricing.second_text`)}</Text>
 
         <div className="grid grid-cols-3 gap-x-2 mb-5">
           {categories.map((el, index) => (

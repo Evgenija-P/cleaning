@@ -5,5 +5,116 @@
     "subtitle": "Our services go beyond the basic services and provide you with clean your home and enhance your life.",
     "button": "Learn More"
   },
-  "category": ["Project Done", "Satisfied Clients", "Awards Winner", "Team Members"]
+  "category": ["Project Done", "Satisfied Clients", "Awards Winner", "Team Members"],
+  "about": {
+    "title": "About Us",
+    "subtitle": "Why will you choose our Services?",
+    "text": [
+      "We provide not only ",
+      "standard and basic services.",
+      "The assortment of ",
+      "Cleaning services",
+      " includes everything that will help to bring order and cleanliness to your home.",
+      "We use only ecological cleaning products for the safety of your health."
+    ],
+    "button": "Read More"
+  },
+  "service": {
+    "title": "Services",
+    "subtitle": "Our Best Services",
+    "text": "We offer many services to meet your requirements and needs.",
+    "btn_close": "Close All Service",
+    "btn_open": "All Service"
+  },
+  "servise_items": [
+    {
+      "title": "Spring-cleaning",
+      "text": "During the general cleaning process, we remove dust and dirt from wherever it may be, even in the most difficult to reach places."
+    },
+    {
+      "title": "Supportive cleaning",
+      "text": "We wash floors, remove dust, polish glass, polish furniture."
+    },
+    {
+      "title": "Cleaning after construction",
+      "text": "We wash windows, remove large and small debris, clean furniture, etc."
+    },
+    {
+      "title": "Window cleaning",
+      "text": "Cleaning glass from dirt, wet washing the frame, washing ebbs, window sills, slopes."
+    },
+    {
+      "title": "Cleaning of offices",
+      "text": "Daily cleaning, one-time general cleaning, interior window cleaning."
+    },
+    {
+      "title": "Daily cleaning of premises",
+      "text": "Daily cleaning of office premises includes comprehensive cleaning and maintaining cleanliness throughout the working day."
+    },
+    {
+      "title": "Wife for an hour",
+      "text": "The whole range of housekeeping activities. Preparing the house for the arrival of guests, preparing treats, cleaning after the event."
+    },
+    {
+      "title": "Washing of facades, billboards, banners",
+      "text": "We will help you keep your billboard, banner, sign (at the entrance to a store, building) clean and presentable."
+    },
+    {
+      "title": "Dry cleaning of upholstered furniture",
+      "text": "We will help you quickly update and refresh your interior, getting rid of dust, plaque, mites, microorganisms, stains of any nature."
+    },
+    {
+      "title": "Dry cleaning of carpets and rugs",
+      "text": "Periodic dry cleaning of carpets using professional means can restore their newness, freshness and beauty."
+    }
+  ],
+  "how": {
+    "title": "How we work",
+    "subtitle": "A few steps to get started.",
+    "text": "To start work, we need to know all the details and requirements. So, cooperation begins with the following steps."
+  },
+  "how_items": [
+    {
+      "title": "Leave a request or call",
+      "text": "We will contact you soon to clarify the issue."
+    },
+    {
+      "title": "We determine the scope of work",
+      "text": "We will calculate the cost and agree on the date of execution."
+    },
+    {
+      "title": "We do the work",
+      "text": "We perform all necessary work professionally and qualitatively."
+    },
+    {
+      "title": "Acceptance of work",
+      "text": "You accept the work of our specialists, after which you make payment."
+    }
+  ],
+  "why": {
+    "title": "Why Choose Us",
+    "subtitle": "The cleanliness of your apartments is our priority.",
+    "text": "We perform our services qualitatively, on time and quickly.",
+    "button": "Contact Us"
+  },
+  "advantages_items": [
+    {
+      "title": "Move Out Cleaning",
+      "text": "We leave for cleaning as quickly as possible, in our own transport and with all the necessary equipment."
+    },
+    {
+      "title": "Regular & Monthly Cleaning",
+      "text": "We will plan the cleaning and perform it at the agreed time."
+    },
+    {
+      "title": "Customer orientation",
+      "text": "We always listen to the needs of our customers and are happy to go to a meeting."
+    }
+  ],
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "We offer quality cleaning at the lowest prices.",
+    "text": "You can choose the most convenient option for you: regular or one-time cleaning.",
+    "second_text": "In addition, we provide services to both individuals and legal entities (with the conclusion of a contract)."
+  }
 }

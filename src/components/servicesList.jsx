@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import data from "../data/services.json";
 import Button from "./UX/buttons";
 import ServiceItem from "./serviceItem";
 
 const ServicesList = () => {
+  const { t } = useTranslation();
   const [isShowAllServices, setIsShowAllServices] = useState(false);
 
   return (
@@ -16,11 +18,11 @@ const ServicesList = () => {
       <div className="mt-[60px]">
         {isShowAllServices ? (
           <Button style={"regular"} btnClass={"mx-auto"} clickFn={() => setIsShowAllServices(!isShowAllServices)}>
-            Close All Service
+            {t(`service.btn_close`)}
           </Button>
         ) : (
           <Button style={"regular"} btnClass={"mx-auto"} clickFn={() => setIsShowAllServices(!isShowAllServices)}>
-            All Service
+            {t(`service.btn_open`)}
           </Button>
         )}
       </div>

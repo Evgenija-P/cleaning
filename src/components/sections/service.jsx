@@ -1,17 +1,18 @@
+import { useTranslation } from "react-i18next";
 import ServicesList from "../servicesList";
 import Subtitle from "../subtitle";
 import Text from "../text";
 import TitleSection from "../title";
 
 const Service = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="min-h-[1060px] bg-lightBlueSecond relative" id="services">
       <div className="container mx-auto py-[120px] relative">
-        <TitleSection style={"mx-auto text-center"}>Service</TitleSection>
-        <Subtitle style={"mx-auto text-center mt-3 mb-5"}>Our Best Services</Subtitle>
-        <Text style={"mx-auto text-center w-[609px]"}>
-          Our services go beyond the basic services and provide you with reenergize your home and enhance your life.
-        </Text>
+        <TitleSection style={"mx-auto text-center"}>{t(`service.title`)}</TitleSection>
+        <Subtitle style={"mx-auto text-center mt-3 mb-5"}>{t(`service.subtitle`)}</Subtitle>
+        <Text style={"mx-auto text-center w-[609px]"}>{t(`service.text`)}</Text>
 
         <ServicesList />
       </div>

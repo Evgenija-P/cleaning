@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import Button from "../UX/buttons";
 import Subtitle from "../subtitle";
 import Text from "../text";
@@ -7,27 +8,27 @@ import GirlSecond from "../../images/about-1.png";
 import { Dots } from "../../icons";
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="min-h-[800px]" id="about">
       <div className="container mx-auto h-full py-[120px] flex">
         <div>
-          <TitleSection>About Us</TitleSection>
-          <Subtitle style={"w-[492px] mt-3"}>Why will you choose our Services?</Subtitle>
+          <TitleSection>{t(`about.title`)}</TitleSection>
+          <Subtitle style={"w-[492px] mt-3"}>{t(`about.subtitle`)}</Subtitle>
           <ul className="flex flex-col gap-y-5 mt-6 w-[513px]">
             <Text>
-              Our services go beyond the <span className="font-semibold">basic services</span> and provide you with a
-              clean the that will{" "}
+              {t(`about.text.0`)}
+              <span className="font-semibold">{t(`about.text.1`)}</span> {t(`about.text.2`)}{" "}
               <a href="#services" className="font-semibold text-orange underline cursor-pointer">
-                Cleaning services
+                {t(`about.text.3`)}
               </a>{" "}
-              of the reenergize your home and enhance your life.
+              {t(`about.text.4`)}
             </Text>
-            <Text>
-              Our services go beyond the basic services and provide you with reenergize your home and enhance your life.
-            </Text>
+            <Text>{t(`about.text.5`)}</Text>
           </ul>
           <Button style={"regular"} btnClass={"mt-12 mb-[96px]"}>
-            Read More
+            {t(`about.button`)}
           </Button>
         </div>
         <div className="relative ml-[126px] w-full">

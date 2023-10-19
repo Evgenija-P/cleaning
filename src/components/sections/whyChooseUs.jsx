@@ -3,25 +3,26 @@ import Subtitle from "../subtitle";
 import Text from "../text";
 import TitleSection from "../title";
 import FirstImg from "../../images/why_1.jpg";
+import { useTranslation } from "react-i18next";
 import SecondImg from "../../images/why_2.jpg";
 import ThirdImg from "../../images/why_3.jpg";
 import { Dots } from "../../icons";
 import Button from "../UX/buttons";
 
 const WhyWe = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="bg-lightBlueSecond relative" id="why">
       <div className="min-h-[1046px] py-[120px] container mx-auto relative flex gap-x-[110px]">
         <div>
-          <TitleSection>Why Choose Us</TitleSection>
-          <Subtitle style={"mt-3 w-[496px] mb-5"}>Your Happyness is Our First Priority</Subtitle>
-          <Text style={"w-[609px]"}>
-            Our services go beyond the basic services and provide you with reenergize your home and enhance your life.
-          </Text>
+          <TitleSection>{t(`why.title`)}</TitleSection>
+          <Subtitle style={"mt-3 w-[496px] mb-5"}>{t(`why.subtitle`)}</Subtitle>
+          <Text style={"w-[609px]"}>{t(`why.text`)}</Text>
 
           <Advantages />
           <Button style={"regular"} clickFn={() => (window.location.href = "#contact")} btnClass={"mt-[68px]"}>
-            Contact Us
+            {t(`why.button`)}
           </Button>
         </div>
         <ul className="flex flex-col gap-y-5 relative">
