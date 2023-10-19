@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import { ArrowRight, Services } from "../icons";
+import { /* ArrowRight */ Services } from "../icons";
 
 const ServiceItem = ({ item }) => {
   const bgColor = item.color === "yellow" ? "bg-yellow" : item.color === "green" ? "bg-green" : "bg-orange";
@@ -14,11 +14,11 @@ const ServiceItem = ({ item }) => {
       </li>
       <li className="text-[32px] font-semibold text-serviceTitle font-title mb-5">{item.title}</li>
       <li className="text-lg text-grey mb-10">{item.text}</li>
-      <li className="absolute bottom-5 right-5">
+      {/* <li className="absolute bottom-5 right-5">
         <button className="hover:scale-125">
           <ArrowRight color={item.color} />
         </button>
-      </li>
+      </li> */}
     </ul>
   );
 };

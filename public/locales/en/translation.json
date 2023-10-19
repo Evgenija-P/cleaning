@@ -1,0 +1,9 @@
+{
+  "nav": ["About", "Services", "Price", "Testimonials", "Contacts"],
+  "hero": {
+    "title": "Cleaning Service From World Class Agency.",
+    "subtitle": "Our services go beyond the basic services and provide you with clean your home and enhance your life.",
+    "button": "Learn More"
+  },
+  "category": ["Project Done", "Satisfied Clients", "Awards Winner", "Team Members"]
+}

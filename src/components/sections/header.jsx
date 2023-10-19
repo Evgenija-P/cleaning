@@ -1,4 +1,5 @@
 import { Call } from "../../icons";
+import LanguagesBtns from "../languagesBtns";
 import NavBar from "../navBar";
 
 const Header = () => {
@@ -6,10 +7,12 @@ const Header = () => {
     <section className="py-8 container mx-auto">
       <div className="flex gap-x-[195px] items-center">
         <NavBar />
+        <LanguagesBtns />
         <div className="flex items-center justify-center gap-x-3">
           <div className="rounded-full w-8 h-8 border-blue border-[1px] flex items-center justify-center">
             <Call />
           </div>
+
           <ul className="flex flex-col">
             <li className="text-base">Call us now</li>
             <li className="text-lg">
