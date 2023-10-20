@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import data from "../../data/price.json";
 import TitleSection from "../title";
 import Subtitle from "../subtitle";
@@ -9,16 +9,16 @@ import { useTranslation } from "react-i18next";
 
 const Price = () => {
   const { t } = useTranslation();
-  const categories = ["All prices"];
-  const [filter, setFilter] = useState("All prices");
+  // const categories = [1, 2, 3];
+  // const [filter, setFilter] = useState(t(`pricing.categories.0`));
 
-  data.forEach((el) => {
-    if (!categories.includes(el.type)) {
-      categories.push(el.type);
-    }
-  });
+  // data.forEach((el) => {
+  //   if (!categories.includes(el.type)) {
+  //     categories.push(el.type);
+  //   }
+  // });
 
-  const filteredItems = filter === "All prices" ? data : data.filter((el) => el.type === filter);
+  // const filteredItems = filter === t(`pricing.categories.0`) ? data : data.filter((el) => el.type === filter);
 
   return (
     <section className="relative" id="price">
@@ -28,23 +28,23 @@ const Price = () => {
         <Text style={"mx-auto text-center w-[609px] mb-4"}>{t(`pricing.text`)}</Text>
         <Text style={"mx-auto text-center w-[609px] mb-5"}>{t(`pricing.second_text`)}</Text>
 
-        <div className="grid grid-cols-3 gap-x-2 mb-5">
-          {categories.map((el, index) => (
+        {/* <div className="grid grid-cols-3 gap-x-2 mb-5">
+          {categories.map((el) => (
             <button
-              key={index + 1}
+              key={el}
               className={`rounded rounded-tr-3xl p-4 text-xl font-medium  ${
                 el === filter
                   ? "bg-orange bg-opacity-100 text-white shadow-buttonOrange"
                   : "bg-blue bg-opacity-40 hover:shadow-button text-gray-400"
               }`}
-              onClick={() => setFilter(el)}
+              onClick={() => setFilter(t(`pricing.categories.${el - 1}`))}
             >
-              {el}
+              {t(`pricing.categories.${el - 1}`)}
             </button>
           ))}
-        </div>
+        </div> */}
 
-        <PriceList data={filteredItems} />
+        <PriceList data={data} />
 
         <div className="w-[275px] h-[275px] rounded-full bg-lightBlue  absolute top-[-140px] right-[15px]" />
         <Dots className={"absolute bottom-[-112px] left-[15px]"} />

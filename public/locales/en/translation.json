@@ -1,7 +1,7 @@
 {
   "nav": ["About", "Services", "Price", "Testimonials", "Contacts"],
   "hero": {
-    "title": "Cleaning Service From World Class Agency.",
+    "title": "Cleaning service from Cleaning Services",
     "subtitle": "Our services go beyond the basic services and provide you with clean your home and enhance your life.",
     "button": "Learn More"
   },
@@ -28,7 +28,7 @@
   },
   "servise_items": [
     {
-      "title": "Spring-cleaning",
+      "title": "General cleaning",
       "text": "During the general cleaning process, we remove dust and dirt from wherever it may be, even in the most difficult to reach places."
     },
     {
@@ -115,6 +115,43 @@
     "title": "Pricing",
     "subtitle": "We offer quality cleaning at the lowest prices.",
     "text": "You can choose the most convenient option for you: regular or one-time cleaning.",
-    "second_text": "In addition, we provide services to both individuals and legal entities (with the conclusion of a contract)."
-  }
+    "second_text": "In addition, we provide services to both individuals and legal entities (with the conclusion of a contract).",
+    "once": "once",
+    "regular": "regular"
+  },
+  "price_items": [
+    { "title": "Maintenance cleaning", "text": ["Fix", "cleaning", "dry", "Washing", "Wife"] },
+    { "title": "Maintenance cleaning", "text": ["Fix", "cleaning", "dry", "Washing", "Wife"] },
+    { "title": "Maintenance cleaning", "text": ["Fix", "cleaning", "dry", "Washing", "Wife"] },
+    { "title": "Maintenance cleaning", "text": ["Fix", "cleaning", "dry", "Washing", "Wife"] },
+    { "title": "Maintenance cleaning", "text": ["Fix", "cleaning", "dry", "Washing", "Wife"] },
+    { "title": "Maintenance cleaning", "text": ["Fix", "cleaning", "dry", "Washing", "Wife"] },
+    { "title": "Maintenance cleaning", "text": ["Fix", "cleaning", "dry", "Washing", "Wife"] }
+  ],
+  "review": {
+    "title": "Testimonials",
+    "subtitle": "Our Clients Say"
+  },
+  "reviews_items": [
+    {
+      "name": "Stephanie Liverani",
+      "text": "Cleaning Services exceeded my expectations. They thoroughly cleaned my entire home, creating cleanliness and comfort. I appreciate their professionalism, and I will definitely recommend this company to my friends."
+    },
+    {
+      "name": "Emmanuel Akinte",
+      "text": "Collaborating with Cleaning Services has been a pleasant experience. They always arrive on time, and my offices look excellent after their cleaning. I am very satisfied with their services."
+    },
+    {
+      "name": "Michael Dam",
+      "text": "My family hired Cleaning Services for weekly cleaning, and we are satisfied with every visit. Our home is always clean and tidy, which truly saves us time."
+    },
+    {
+      "name": "Alex McCarthy",
+      "text": "Thanks to Cleaning Services, our office kitchen has finally become a pleasant dining area. They clean up after us every day, and the result is always praiseworthy."
+    },
+    {
+      "name": "Joshua Rondeau",
+      "text": "Thank you, Cleaning Services, for your promptness and quality cleaning before our important event. They helped us make a great first impression on our guests."
+    }
+  ]
 }
